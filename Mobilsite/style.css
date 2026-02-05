@@ -2,14 +2,16 @@
     font-family: font1;
     src: url(fonte/playwrite.woff2);
 }
-@font-face {
-    font-family: font2-1;
-    src: url(fonte/font2-1.woff2);
-}
+
 @font-face {
     font-family: font2;
     src: url(fonte/font2.woff2);
 }
+@font-face {    
+    
+    font-family: font2-1;
+    src: url(fonte/font2-1.woff2);  
+} <!--OBS: font2 og font2-1 er 2 varianter af samme font -->
 body {
 }
 header {
