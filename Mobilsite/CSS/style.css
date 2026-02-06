@@ -1,14 +1,14 @@
 @font-face {
   font-family: font1;
-  src: url(fonte/playwrite.woff2);
+  src: url(../fonte/playwrite.woff2);
 }
 @font-face {
   font-family: font2;
-  src: url(fonte/font2.woff2);
+  src: url(../fonte/font2.woff2);
 }
 @font-face {
   font-family: font2-1;
-  src: url(fonte/font2-1.woff2);
+  src: url(../fonte/font2-1.woff2);
 }
 
 /* OBS: font2 og font2-1 er 2 varianter af samme font */
@@ -22,6 +22,19 @@ header {
   margin-top: -2rem;
   margin-right: -2rem;
 }
+ul {
+  list-style: none;
+  font-family: font2;
+  line-height: 1.5;
+}
+
+/* header ul {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+} */
+
 footer {
   background-color: rgb(228, 228, 228);
   text-align: center;
