@@ -10,7 +10,9 @@
   font-family: font2-1;
   src: url(fonte/font2-1.woff2);
 }
-<!--OBS: font2 og font2-1 er 2 varianter af samme font -->
+
+/* OBS: font2 og font2-1 er 2 varianter af samme font */
+
 body {
 }
 header {
@@ -59,11 +61,14 @@ img {
 button {
   background-color: orange;
   padding: 15px;
+  font-family: font1;
   text-decoration: none;
   color: white;
   border-radius: 5px;
   border: none;
   margin-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 * {
