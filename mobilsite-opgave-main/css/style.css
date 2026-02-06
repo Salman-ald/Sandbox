@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(235, 193, 193);
+}
+
+@font-face {
+  font-family: cherry;
+  src: url(../fonts/cherrycreamsodaregular.ttf);
+}
+
+p,
+li {
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(95, 87, 90);
+  font-size: 18px;
+  padding: 0.2em;
+  margin: 1rem 1rem 1.5rem 1rem;
+}
+body nav {
+  background-color: rgb(255, 255, 255);
+  margin: 1rem 1rem 1.5rem 1rem;
+  padding: 0.2em;
+}
+h1,
+h2,
+h3,
+img {
+  font-family: "cherry";
+  margin: 1rem 1rem 1.5rem 1rem;
+  padding: 0.2em;
+  color: rgb(146, 62, 90);
+}
+.cta-btn {
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(146, 62, 90);
+  color: rgb(255, 255, 255);
+  font-family: cherry;
+  padding: 10px 16px;
+  border-radius: 20px;
+  margin: 1rem 1rem 1.5rem 1rem;
+}
