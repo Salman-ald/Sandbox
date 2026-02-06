@@ -27,6 +27,20 @@ ul {
   font-family: font2;
   line-height: 1.5;
 }
+.cta-btn {
+  color: white;
+  background-color: orange;
+  padding: 10px 16px
+  margin: 1rem;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  border: 2px solid rgb(227, 125, 0); 
+}
+.cta-btn:hover {
+    background-color: rgb(227, 125, 0);
+    transition: background 0.15s ease-in-out;
+    }
 
 /* header ul {
   display: flex;
